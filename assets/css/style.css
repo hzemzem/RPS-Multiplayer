@@ -1,0 +1,187 @@
+body {
+	font-family: 'Revalia', cursive;
+}
+
+.container { 
+	width: 100% 
+}
+
+.jumbotron {
+  background-color: #DB7093;
+  width: 100%;
+}
+
+.jumbotron h2 {
+	font-size: 2em;
+    color: black;
+}
+
+.formPanel {
+	width: 100%;
+	height: 50px;
+	background-color: transparent;
+	margin: 0.0em 0.0em 2.0em 0.0em;
+}
+
+#name-input {
+  width: 450px;
+  height: 30px;
+  color: black;
+  text-align: center;
+  margin-left: 33%;
+  background-color: white;
+}
+
+#add-name {
+	width: 200px;
+	margin-top: 15px;
+	margin-left: 30px;
+	padding: 5px 45px;
+	color: #DB7093;
+	font-weight: bold;
+}
+
+.panel {
+	background-color: transparent;
+	border: none;
+}
+
+.playerPanel {
+	height: 283px;
+	background-color: transparent;
+}
+
+.playerPanelTurn {
+	border: 5px solid #ff1a75;
+}
+
+.playerPanel .panelName {
+	height: 65px;
+	background-color: #f0c2d1;
+	text-align: center;
+	font-weight: bold;
+}
+
+.playerPanel .panelName h3 {
+	font-size: 2em;
+	font-family: 'Anton', sans-serif;
+	color: black;
+	margin: 0.25em 0em 0em 0em;
+}
+
+.playerPanel .panelOption {
+	height: 50px;
+	background-color: #faebf0;
+	text-align: center;
+	font-weight: normal;
+	font-size: 1.5em;
+	color: black;
+}
+
+.playerPanel .panelOption .option {
+	margin: -0.2em 0em 0em 0em;
+}
+
+.playerPanel .panelOption:hover {
+	background-color: white;
+}
+
+.playerPanel .panelOption:active {
+  background-color: white;
+}
+
+.playerPanel .panelStats {
+	height: 60px;
+	background-color: #f0c2d1;
+	text-align: center;
+	font-weight: normal;
+	font-size: 1.5em;
+	color: black;
+}
+
+.gamePanel {
+	height: 281px;
+	background-color: transparent;
+}
+
+.gamePanel h3 {
+	font-size: 3.5em;
+	color: black;
+	margin: 1.25em 0em 0em 0em;
+}
+
+#waitingNotice {
+	font-size: 1.5em;
+	color: black;
+}
+
+
+#chatDisplay {
+	height: 150px;
+	width: 100%;
+	overflow: auto;
+	text-align: left;
+  	background-color: #faebf0;
+	font-size: 1em;
+	color: black;
+	padding: 1em 1em 1em 1em;
+}
+
+.chatInput {
+	height: 150px;
+  	background-color: #DB7093;
+}
+
+.chatLabel {
+	font-size: 1.5em;
+	color: black;
+	text-align: center;
+	font-weight: bold;
+	padding: 0.5em 0em 0.5em 0em;
+}
+
+#chat-input {
+	width: 60%;
+	height: 90px;
+	margin-left: 15px;
+	margin-right: 5px;
+	color: #b4c7df;
+	text-align: center;
+	background-color: #faebf0;
+}
+
+#chat-input:focus {
+	color: #DB7093;
+	background-color: white;
+}
+
+#chat-send {
+	width: 30%;
+	height: 90px;
+	margin-left: 5px;
+	margin-right: 5px;
+	color: #DB7093;
+	font-weight: normal;
+	position: relative;
+	top: -40px;
+}
+
+.chatColor1 {
+	color: #ff0066;
+}
+
+.chatColor2 {
+	color: #800033;
+}
+
+.chatColorDisconnected {
+	opacity: 0.7;
+	color: grey;
+	font-style: italic;
+}
+
+.chatColorJoined {
+	opacity: 0.7;
+	color: hotpink;
+	font-style: italic;
+}
